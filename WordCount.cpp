@@ -59,7 +59,7 @@ int CountC(char *file) //返回文件的字符数
     		}
     		
     	fclose(fp);
-		printf("CharNum:%d ",CharCount-1);//作业中没有说明 回车符'\r' 算字符吧 ，所以减去回车符带来的字符 
+		printf("CharNum:%d ",CharCount-1);//作业中没有说明 回车符'\r' 算字符吧 ，所以减去回车符带来的字符数 
 	}
 	
 int main(int argc, char* argv[])             
